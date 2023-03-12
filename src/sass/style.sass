@@ -1,0 +1,24 @@
+@import "base/variables"
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: $ff-sans, $ff-mono
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+body
+  background-color: $color-bg
+
+.container
+  display: flex
+  justify-content: space-between
+  align-items: stretch
+  padding-top: 85px
+  padding-bottom: 115px
+
+@import "blocks/sheet"
+@import "blocks/header"
+@import "blocks/text-component"
+@import "blocks/project"
