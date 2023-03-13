@@ -120,6 +120,9 @@ body {
   align-items: center;
   gap: 13px;
 }
+.header__right {
+  text-align: right;
+}
 .header__letter {
   display: block;
   width: 40px;
