@@ -2,11 +2,24 @@
   width: 595px
   padding: 45px 58px
   background-color: $color-white
+  @media (max-width: $breakpoint-xl)
+    width: 560px
+  @media (max-width: $breakpoint-lg)
+    width: 595px
+  @media (max-width: $breakpoint-sm)
+    padding: 30px 30px
+    width: 100%
+  @media (max-width: $breakpoint-xs)
+    width: 100%
   &__content
     display: flex
     flex-direction: row
     justify-content: space-between
     align-items: flex-start
+    @media (max-width: $breakpoint-xs)
+      flex-direction: column
+      justify-content: flex-start
+      align-items: stretch
   &__header
     margin-bottom: 20px
     width: 100%
@@ -15,8 +28,12 @@
       width: 100%
     &_medium
       width: 242px
+      @media (max-width: $breakpoint-xs)
+        width: 100%
     &_small
       width: 181px
+      @media (max-width: $breakpoint-xs)
+        width: 100%
   &__text-component
     margin-bottom: 24px
   &__project

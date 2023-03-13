@@ -17,6 +17,18 @@ body
   align-items: stretch
   padding-top: 85px
   padding-bottom: 115px
+  @media (max-width: $breakpoint-xl)
+    padding-top: 60px
+    padding-bottom: 60px
+  @media (max-width: $breakpoint-lg)
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    gap: 60px
+  @media (max-width: $breakpoint-xs)
+    padding-top: 0
+    padding-bottom: 0
+    gap: 30px
 
 @import "blocks/sheet"
 @import "blocks/header"
