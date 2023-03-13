@@ -41,8 +41,8 @@ body {
 }
 
 .sheet {
-  width: 595px;
-  padding: 45px 58px;
+  width: 600px;
+  padding: 40px 35px;
   background-color: #ffffff;
 }
 @media (max-width: 1399px) {
@@ -52,13 +52,12 @@ body {
 }
 @media (max-width: 1199px) {
   .sheet {
-    width: 595px;
+    width: 600px;
   }
 }
 @media (max-width: 767px) {
   .sheet {
     padding: 30px 30px;
-    width: 100%;
   }
 }
 @media (max-width: 575px) {
@@ -80,14 +79,24 @@ body {
   }
 }
 .sheet__header {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   width: 100%;
 }
 .sheet__column_big {
   width: 100%;
 }
 .sheet__column_medium {
-  width: 242px;
+  width: 295px;
+}
+@media (max-width: 1399px) {
+  .sheet__column_medium {
+    width: 260px;
+  }
+}
+@media (max-width: 1199px) {
+  .sheet__column_medium {
+    width: 295px;
+  }
 }
 @media (max-width: 575px) {
   .sheet__column_medium {
@@ -125,11 +134,11 @@ body {
 }
 .header__letter {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   background-color: #F7F747;
-  font-size: 35px;
-  line-height: 40px;
+  font-size: 45px;
+  line-height: 55px;
   font-weight: 700;
   font-family: "IBM Plex Mono", monospace;
   text-align: center;
@@ -137,36 +146,36 @@ body {
 }
 .header__name {
   font-family: "IBM Plex Mono", monospace;
-  font-size: 13px;
-  line-height: 17px;
-  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 3px;
 }
 .header__position {
   font-family: "IBM Plex Mono", monospace;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 15px;
   margin-bottom: 0;
 }
 .header__span {
   display: block;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 8px;
-  line-height: 11px;
+  font-size: 10px;
+  line-height: 14px;
   font-weight: 500;
   color: #454546;
   text-decoration: none;
 }
 
 .text-component__profile {
-  font-size: 10px;
-  line-height: 15px;
+  font-size: 14px;
+  line-height: 20px;
   font-weight: 400;
 }
 .text-component__title {
   display: block;
   margin-bottom: 13px;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 18px;
   font-weight: 700;
 }
@@ -175,16 +184,16 @@ body {
   color: #454546;
 }
 .text-component__date_big {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 18px;
   font-weight: 400;
   margin-bottom: 5px;
 }
 .text-component__date_small {
-  font-size: 9px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 16px;
   font-weight: 500;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 .text-component__subtitle, .text-component__location {
   display: block;
@@ -195,24 +204,25 @@ body {
   font-weight: 700;
 }
 .text-component__subtitle_big {
-  font-size: 11px;
-  line-height: 17px;
+  font-size: 13px;
+  line-height: 18px;
 }
 .text-component__subtitle_small {
-  font-size: 8px;
-  line-height: 12px;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 4px;
 }
 .text-component__location {
   margin-bottom: 5px;
   font-weight: 500;
 }
 .text-component__location_big {
-  font-size: 11px;
-  line-height: 17px;
+  font-size: 13px;
+  line-height: 18px;
 }
 .text-component__location_small {
-  font-size: 8px;
-  line-height: 12px;
+  font-size: 11px;
+  line-height: 15px;
 }
 .text-component__desc-list {
   margin-bottom: 0;
@@ -220,8 +230,8 @@ body {
 }
 .text-component__desc-item {
   list-style-type: circle;
-  font-size: 9px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 18px;
   font-weight: 400;
   width: 100%;
 }
@@ -231,8 +241,8 @@ body {
   align-items: flex-start;
 }
 .text-component__portfolio-desc {
-  font-size: 11px;
-  line-height: 17px;
+  font-size: 14px;
+  line-height: 20px;
   font-weight: 400;
 }
 
@@ -256,7 +266,7 @@ body {
   display: inline-block;
   font-family: "IBM Plex Mono", monospace;
   color: #454546;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 18px;
   font-weight: 700;
   margin-bottom: 2px;
@@ -264,8 +274,8 @@ body {
 .project__desc {
   display: block;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 11px;
-  line-height: 17px;
+  font-size: 12px;
+  line-height: 18px;
   font-weight: 500;
   letter-spacing: -0.03em;
 }
